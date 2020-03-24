@@ -24,6 +24,6 @@ class OmarServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-       dd("We are loading our packages Service Provider");
+       info('altaezi\omar bootstraped');
     }
 }
