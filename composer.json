@@ -1,0 +1,26 @@
+{
+    "name": "altaezi/omar",
+    "description": "Test package",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Altaezi\\Omar\\": "src"
+        }
+    },
+    "authors": [
+    {
+        "name": "Laraning",
+        "email": "omaraltaezi@gmail.com"
+    }
+    ],
+    "minimum-stability": "dev"
+}
