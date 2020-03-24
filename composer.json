@@ -10,7 +10,13 @@
     "require-dev": {
         "phpunit/phpunit": "^7.1"
     },
-
+    "extra": {
+        "laravel":{   
+            "providers" : [
+                "Altaezi\\Omar\\Provider\\OmarServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Altaezi\\Omar\\": "src"
